@@ -1,0 +1,399 @@
+body{
+	background:url('wood.jpg');
+}
+nav.navbar{
+	background-color:#e0deab;
+	border-color:#b09e6c;
+	height:60px;
+	
+}
+
+.navbar-default .navbar-nav>li>a {
+color: #613c22;
+font-size:1.2em;
+}
+
+.navbar-default .navbar-brand {
+color:#8f4e3e;
+font-family: 'Sail', cursive;
+font-size:45px;
+display:inline;
+}
+.navbar-default .navbar-brand:first-letter {
+margin-right:-12px;
+}
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+color:#8f4e3e;
+}
+.navbar-default .navbar-nav>.open>a:focus{
+	background-color:#b8b589;
+	color:#6b3a2d;
+}
+.open>.dropdown-menu {
+	background-color:#e4e2b5;
+	
+}
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus{
+	background-color:#bebc8f;
+}
+.dropdown-menu>li>a {
+	color:#8f4e3e;
+
+}
+.dropdown-menu>li>a:hover {
+	color:#b26652;
+
+}
+
+.notes{
+
+	width:300px;
+	float:left;
+	margin:55px 0 0 20px;
+}
+
+.notes div{
+	width:270px;
+	height:272px;
+	background-image:url('Post-it.png');
+	position:relative;
+}
+
+.notes div p{
+	position:absolute;
+	width:209px;
+	height:206px;
+	left:27px;
+	top:52px;
+	font-size:19px;
+	color:#674023;
+	transform:rotate(-6deg);
+	-ms-transform:rotate(-6deg); /* IE 9 */
+	-webkit-transform:rotate(-6deg); /* Safari and Chrome */
+}
+
+#calendar{
+	background-color:#e0deab;
+	width:65%;
+	float:right;
+	color: #613c22;
+	font-size:16px;
+	margin-right:100px;
+	box-shadow:0px 0px 20px rgba(0,0,0,0.7);
+}
+
+#calendar td{
+	border-collapse:collapse;
+	border:2px solid #613c22;
+	padding:0px 10px;
+	height:90px;
+	position:relative;
+	width:14.28%;
+}
+
+#calendar th{
+	text-align:center;
+	color:#73472a;
+	font-size:18px;
+}
+
+#calendar .other .number{
+	color:#979469;
+
+}
+#calendar #actuel{
+	color:#d5a395;
+	background-color:#8c4e3d;
+}
+
+#calendar .number{
+	position:absolute;
+	left:10px;
+	top:7px;
+}
+
+#calendar .plus{
+	color:#8e8c61;
+	position:absolute;
+	left:10px;
+	font-size:0.8em;
+	bottom:7px;
+}
+#calendar .delete{
+	color:#b26652;
+	position:absolute;
+	left:10px;
+	font-size:0.8em;
+	bottom:7px;
+}
+
+#calendar ul{
+	position:absolute;
+	right:10px;
+	top:7px;
+	font-size:0.75em;
+	margin:0;
+	padding:0;
+	list-style:none;
+
+}
+
+#calendar ul li{
+	background-color:rgba(0,0,0,0.1);
+	padding:2px 4px;
+	margin:2px 0;
+}
+
+
+
+.titreTable,.titreAbsence{
+	color:#8f4e3e;
+	font-size:35px;
+	width:65%;
+	float:right;
+	margin-right:100px;
+	text-shadow:2px 2px 2px rgba(0,0,0,0.2);
+}
+.titreAbsence{
+	margin-top:40px;
+}
+
+.absences{
+	width:65%;
+	float:right;
+	margin:0 100px 100px 0;
+	padding:0;
+	list-style:none;
+}
+.absences li{
+	font-size:20px;
+	margin:20px 0;
+}
+.absences li a{
+	color:#e2dfb0;
+}
+
+.absences img{
+	width:70px;
+	height:70px;
+	margin-right:20px;
+	opacity:0.7;
+	border:5px solid #8f4e3e;
+}
+.planning #calendar{
+	float:none;
+	width:90%;
+	margin:0 auto;
+}
+.planning .titreTable{
+float:none;
+margin:20px auto 20px;
+width:90%;
+text-align:center;
+position:relative;
+}
+.planning #calendar ul{
+	width:140px;
+}
+.planning #calendar td{
+	height:100px;
+}
+.glyphicon-chevron-right,.glyphicon-chevron-left{
+	color:#8f4e3e;
+	font-size:25px;
+	position:absolute;
+	top: 5px;
+}
+.glyphicon-chevron-right{
+	right:20px;
+}
+.glyphicon-chevron-left{
+	left:20px;
+}
+
+
+#choixCalendrier{
+	text-align:center;
+	margin:0 0 20px 0;
+	padding:0;
+}
+#choixCalendrier li{
+	display:inline-block;
+	padding:4px 8px;
+	background-color:#6b3a2d;
+	border-radius:10px;
+	margin:0 5px;
+	box-shadow:0px 0px 3px rgba(0,0,0,0.7),0px 0px 8px rgba(0,0,0,0.4) inset;
+
+}
+#choixCalendrier li a{
+	color:#e1dfad;
+}
+#calendar.semaine h1{
+font-size:25px;
+}
+
+#calendar.jour td {
+	width:90%;
+}
+
+#calendar.jour .delete,#calendar.jour .plus{
+font-size:2em;
+bottom:30px;
+}
+
+#calendar.jour td{
+	padding-left:70px;
+}
+
+.t{
+	color:#674023;
+	font-size:60px;
+	position:absolute;
+	left:100px;
+	font-family:serif;
+	top:80px;
+	opacity:0.8;
+	transform:rotate(-6deg);
+	-ms-transform:rotate(-6deg); /* IE 9 */
+	-webkit-transform:rotate(-6deg); /* Safari and Chrome */
+
+}
+#cours,#eleve{
+	width:750px;
+	margin:0 auto;
+	position:relative;
+}
+.titreCours,.nomEleve{
+	color:#8f4e3e;
+	font-size:35px;
+	text-shadow:2px 2px 2px rgba(0,0,0,0.2);
+	margin-top:40px;
+
+}
+.titreCours a{
+	color:#b2af78;
+}
+#cours h2,#eleve h2{
+	color:#e3e1b3;
+	font-size:1.5em;
+	margin:40px 0 0 0;
+}
+#cours ul li,#eleve ul li{
+	font-size:25px;
+	color:#d1cc83;
+}
+#cours ul li>a:first-child,#eleve ul li a {
+	color:#d1cc83;
+}
+
+#cours ul li span a{
+color:#e3e1b3;
+font-size:20px;
+margin-right:10px;
+}
+
+#cours time{
+	font-size:18px;
+	color:#adaa6f;
+	margin-right:15px;
+}
+
+.presences img,.inscrits img,.nonInscrits img{
+	width:70px;
+	height:70px;
+	margin-right:20px;
+	opacity:0.7;
+	border:5px solid #8f4e3e;
+}
+#cours .presences li,.inscrits li,.nonInscrits li{
+	list-style:none;
+	margin: 10px 0;
+}
+.presences li{
+	margin: 10px 0;
+}
+.presences,.inscrits,.nonInscrits{
+	padding:0;
+	margin:20px 0 0 0;
+}
+
+.nonInscrits.groupe li{
+	list-style:disc;
+}
+.nonInscrits.groupe{
+	padding:0 0 0 40px;
+}
+.nonInscrits li a:first-child{
+	
+	display:inline-block;
+}
+.nonInscrits.groupe li a:first-child{
+	width:260px;
+}
+.glyphicon-cog{
+	position:relative;
+	left:15px;
+	font-size:1.3em;
+	color:#9e643d;
+	top:5px;
+}
+
+#eleve img {
+	position:absolute;
+	width:150px;
+	height:150px;
+	border:8px solid #5d3227;
+	opacity:0.7;
+	right:0;
+	top:0px;
+}
+
+.lienInscription{
+	padding:4px 8px;
+	background-color:#6b3a2d;
+	border-radius:10px;
+	color:#e1dfad;
+	margin:0 5px;
+	font-size:15px;
+	box-shadow:0px 0px 3px rgba(0,0,0,0.7),0px 0px 8px rgba(0,0,0,0.4) inset;
+}
+.lienInscription:hover{
+
+	color:#b26652;
+}
+
+.lettre{
+	color:#b26652;
+	font-size:1.6em;
+	padding:3px;
+}
+.lettre:hover{
+	color:#dfdca8;
+}
+.lettres{
+	text-align:center;
+	margin:20px 0;
+}
+.lettres .lettre:nth-child(even){
+	background-color:#593026;
+
+}
+.lettres .lettre:nth-child(odd){
+	background-color:rgba(0,0,0,0.2);
+}
+
+.creerCours{
+	display:inline-block;
+
+	padding:4px 8px;
+	background-color:#6b3a2d;
+	border-radius:10px;
+	color:#e1dfad;
+	font-size:25px;
+	box-shadow:0px 0px 3px rgba(0,0,0,0.3),0px 0px 8px rgba(0,0,0,0.4) inset;
+	margin:50px 0;
+}
+.creerCours:hover{
+	color:#b26652;
+}
